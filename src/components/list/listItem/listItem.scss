@@ -1,0 +1,38 @@
+.list-item {
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+
+    &__header {
+        width: 100%;
+        text-align: center;
+        cursor: pointer;
+
+        &:hover {
+            color: #f72727;
+        }
+
+        &.is-active {
+            color: #f72727;
+        }
+    }
+
+    &__content {
+        // display: show;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        margin: 15px 0;
+
+        span {
+            margin-bottom: 5px;
+        }
+    }
+
+    .sword-image {
+
+        bottom:0px;
+        left: 45px;
+    }
+}
+
